@@ -6,7 +6,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import io.cucumber.java.After;
@@ -18,7 +17,7 @@ import java.util.UUID;
 import static org.junit.Assert.assertEquals;
 
 
-public class baskeballEnland {
+public class baskeballEngland {
 
     WebDriver driver;
     boolean skipLastName = false;
